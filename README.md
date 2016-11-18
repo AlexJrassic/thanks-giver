@@ -26,7 +26,7 @@ These next steps will install the library and driver
 
 Next, you'll need to install the thanksgiver.py file. We'll edit the contents in a minute.
 
-<pre>https://github.com/AlexJrassic/thanks-giver.git</pre>
+<pre>sudo git clone https://github.com/AlexJrassic/thanks-giver.git</pre>
 
 If you open this file up, you'll see a list of things to be thankful for. Here is where you can change the contents. Just make sure you don't lose any of the code when you do. Save the file and close it.
 
