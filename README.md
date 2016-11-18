@@ -32,7 +32,9 @@ If you open this file up, you'll see a list of things to be thankful for. Here i
 
 You may need to rotate the screen. I had to in order to fit in the box. This explains the papirus-write code within the thanksgiver.py file. If you don't need to rotate the screen, ignore it. If you do, follow this step.
 
-Open /home/pi/papirus/somethingsomethingsomething and add the following line to the bottom.
+Open /home/pi/PaPiRus/bin/papirus-write and add the following line near the bottom (above papirus.display(image))
+
+<pre>image=image.rotate(180)</pre>
 
 Lastly, you'll need to open terminal and tell the Pi to run the script on reboot. To do this, type:
 
